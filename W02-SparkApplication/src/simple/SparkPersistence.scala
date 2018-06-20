@@ -23,13 +23,13 @@ object SparkPersistence {
       length >=3}
     reducedWordCountRdd.cache()
     val joinedRdd = reducedWordCountRdd.join(filteredWordLengthPairs)
-    joinedRdd.persist(StorageLevel.MEMORY_AND_DISK)
+    joinedRdd.persist(StorageLevel.MEMORY_AND_DISK) //store back into the disk; control space for options
     val wordPairsCount = reducedWordCountRdd.count
     val wordPairsCollection = reducedWordCountRdd.take(10)
     val joinedRddCount = joinedRdd.count
     val joinedPairs = joinedRdd.collect()
-    reducedWordCountRdd.unpersist()
-    joinedRdd.unpersist()
+    reducedWordCountRdd.unpersist() 
+    joinedRdd.unpersist()  //unpersist examples
     
   }
     

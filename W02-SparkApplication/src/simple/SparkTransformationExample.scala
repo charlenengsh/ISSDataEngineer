@@ -8,12 +8,12 @@ object SparkTransformationExample {
     val conf = new SparkConf
     conf.setMaster("local[2]").setAppName("SparkTransformationExample")
     val sc = new SparkContext(conf)
-    val baseRdd1 =
-      sc.parallelize(Array("hello", "hi", "suria", "big", "data", "hub",
-        "hub", "hi"), 1)
-    val baseRdd2 =
-      sc.parallelize(Array("hey", "daniel", "mohammad", "prateek"), 1)
+   
+    val baseRdd1 = sc.parallelize(Array("hello", "hi", "suria", "big", "data", "hub", "hub", "hi"), 1)
+    val baseRdd2 = sc.parallelize(Array("hey", "daniel", "mohammad", "prateek"), 1)
     val baseRdd3 = sc.parallelize(Array(1, 2, 3, 4), 2)
+    /*instead of hardcoding RDD, can read from the file from the ContextExample.scala example*/
+    
     val sampledRdd = baseRdd1.sample(false, 0.5)
     val unionRdd = baseRdd1.union(baseRdd2).repartition(1)
     val intersectionRdd = baseRdd1.intersection(baseRdd2)

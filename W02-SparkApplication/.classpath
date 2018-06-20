@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.3.0.jar" sourcepath="/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar" sourcepath="/home/cloudera/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.7-sources.jar">
+	<classpathentry kind="lib" path="/home/cloudera/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.7.jar" sourcepath="/home/cloudera/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.7-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/home/cloudera/.ivy2/cache/org.apache.avro/avro/docs/avro-1.7.7-javadoc.jar!/"/>
 		</attributes>

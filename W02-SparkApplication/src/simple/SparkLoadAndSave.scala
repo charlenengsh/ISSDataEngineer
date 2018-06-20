@@ -12,14 +12,14 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.DeserializationFeature
 
 import java.io.{ StringWriter, StringReader }
-import au.com.bytecode.opencsv.{ CSVWriter, CSVReader }
+import au.com.bytecode.opencsv.{ CSVWriter, CSVReader } //if using CSV file, need to import this
 import scala.collection.JavaConverters._
 import collection.JavaConverters._
 
 object SparkLoadAndSave {
   case class Person(name: String, age: Int)
 
-  case class Stocks(name: String, totalPrice: Long)
+  case class Stocks(name: String, totalPrice: Long) /*case is a functional class instead of oo class*/
 
   def main(args: Array[String]): Unit = {
 
