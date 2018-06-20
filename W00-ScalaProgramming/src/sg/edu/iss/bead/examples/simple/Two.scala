@@ -11,5 +11,5 @@ object Two extends App {
 
    println(s"Calling function with 10: ${checkIF10AndReturn20(10)}")
 
-   println(s"Calling function with 10: ${checkIF10AndReturn20(20)}") // Throws Exception!
+   println(s"Calling function with 10: ${checkIF10AndReturn20(20)}") // Throws Exception! 
 }

@@ -5,17 +5,17 @@ object ColorPrinter extends App {
 
   val printerSwitch = false
 
-  def printPages(doc: Document, lastIndex: Int, print: (Int) => Unit) = {
+  def printPages(doc: Document, lastIndex: Int, print: (Int) => Unit) = {  //literal function here : print: (Int) => Unit
 
     if(lastIndex <= doc.numOfPages && !printerSwitch) for(i <- 1 to lastIndex) print(i)
 
   }
 
-  val colorPrint = (index: Int) => println(s"Printing Color Page $index.")
+  val colorPrint = (index: Int) => println(s"Printing Color Page v1 $index.") //version 1
 
-  val colorPrintV2 = new Function1[Int, Unit]{
+  val colorPrintV2 = new Function1[Int, Unit]{   //version 2
     override def apply(index: Int): Unit =
-      println(s"Printing Color Page $index.")
+      println(s"Printing Color Page v2 $index.")
   }
 
   println("---------Function V1-----------")

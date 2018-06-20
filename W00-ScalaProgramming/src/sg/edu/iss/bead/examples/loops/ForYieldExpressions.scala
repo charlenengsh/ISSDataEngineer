@@ -4,15 +4,16 @@ object ForYieldExpressions extends App {
   val person1 = Person("Albert", 21, 'm')
   val person2 = Person("Bob", 25, 'm')
   val person3 = Person("Cyril", 19, 'f')
+   val person4 = Person("Darren", 25, 'm')
 
-  val persons = List(person1, person2, person3)
+  val persons = List(person1, person2, person3, person4)
 
   val winners = for {
     person <- persons
     age = person.age
     name = person.name
     if age > 20
-  } yield name
+  } yield name 
 
   winners.foreach(println)
 

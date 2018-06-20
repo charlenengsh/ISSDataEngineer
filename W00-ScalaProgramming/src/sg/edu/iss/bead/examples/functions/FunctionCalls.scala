@@ -7,11 +7,12 @@ object FunctionCalls extends App {
   def averageV2(numbers: Int*) : Double = numbers.sum / numbers.length
 
   println(average(2,2))
+  //println(average(1,2))
   println(averageV1(1,2,3))
   println(averageV2(1,2,3,2))
 
-  def compareIntegersV6(value1: Int, value2: Int = 10): String = {
-    println(s"Executing V6")
+  def compareIntegersV6(value1: Int, value2: Int = 10): String = {  //question: why is there an assingment of Int=10 ?
+    println(s"Executing V6 ... value2 is now = $value2")
 
     def giveAMeaningFullResult(result: Int) = result match {
       case 0 => "Values are equal"
@@ -20,7 +21,10 @@ object FunctionCalls extends App {
       case _ => "Could not perform the operation"
     }
 
-    val result = if (value1 == value2) 0 else if (value1 > value2) 1 else -1
+    val result = if (value1 == value2) 0 
+                 else if (value1 > value2) 1 
+                 else -1
+                 
     giveAMeaningFullResult(result)
   }
 

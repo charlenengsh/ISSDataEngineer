@@ -19,5 +19,7 @@ object PatternMatching extends App {
 
     matchAgainst(1)
     matchAgainst(5)
+    matchAgainst(3)
+    matchAgainst(10)
 
 }
