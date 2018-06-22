@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>W02-SparkApplication</name>
+  <name>W03-SparkSQL</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>

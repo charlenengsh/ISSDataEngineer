@@ -1,0 +1,27 @@
+Days after President Donald Trump met with North Korean dictator Kim Jong Un in Singapore, the president touted the strength of the two leaders' relationship. "I can now call him," he told reporters at the White House on Friday. "I gave him a very direct number. He can now call me if he has any difficulty. We have communication."
+
+The US and North Korea have an extremely complicated and thorny diplomatic relationship—it wasn't long ago that Trump casually threatened a nuclear strike—and any gesture of goodwill between the two nations potentially helps better it. But Trump's claim concerned security experts Friday, who noted that if the president really did give his personal number to Kim Jong Un, he would also have created a major national security exposure in the process.
+
+"Absolutely that is a problem," says Karsten Nohl, chief scientist at the German firm Security Research Labs, who researches cell network attacks. Hackers can abuse flaws in the way cellphone networks interoperate to listen in on someone's phone calls, intercept their text messages, and track their location. If Trump wasn't careful, he may have given Kim Jong Un an easy and expansive tool for spying on the top tier of the US government. The White House did not return a request for comment.
+
+"If he were well-advised and listened to that advice, he would probably give out a random phone number that forwards to his phone number, versus a phone number that is really off of the SIM card in his phone," Nohl says. "As president of the US, he could probably have a list of 1,000 phone numbers, all of which reach his phone."
+
+That's how things are supposed to work. But Trump has a poor track record for maintaining cyberhygiene within the White House. He brought his personal Android phone there when he first began his presidency, and has shown reported reluctance to turn his government-issued smartphones in to the White House IT department for scanning or to be swapped out.
+
+"I wouldn't be surprised if everybody has malware on Trump's smartphones," says Dave Aitel, a former NSA researcher who now runs the penetration testing firm Immunity.
+
+Furthermore, a CNN report from late April indicated that Trump has recently increased his personal smartphone use, including for conversations with GOP lawmakers, partly in an effort to circumvent the White House switchboard altogether.
+
+All told, you have a situation in which the President of the United States uses a likely insecure smartphone, coupled with at least the possibility that he has given the number of that smartphone to the leader of a hostile foreign power that loves to hack. "It's definitely not the perfect scenario," Nohl says.
+
+If North Korean intelligence isn't already tracking Trump's phones through malware, a direct phone number could give them a way in. The main type of known cell network exploits, called SS7 attacks, can give hackers relatively easy access to calls and texts, not to mention location data. The FCC has been working on broader fixes for the vulnerabilities, and the threat isn't just hypothetical. The Department of Homeland Security acknowledged at the end of May that hackers may have used SS7 attacks against US cellphone users.
+
+    'I wouldn't be surprised if everybody has malware on Trump's smartphones.'
+
+Dave Aitel, Immunity
+
+Because SS7 attacks involve manipulating connections between different cell networks—and carriers keep records of those connections—they can be spotted, especially against a number as high-value as Trump's. That doesn't mean a hacker couldn't strategically use the attacks once or twice, though, choosing to burn their advantage at a calculated moment. Nohl also points out that it would be more difficult to watch for signs of an SS7 attack when Trump is traveling abroad and on foreign carriers, if he brings and uses his smartphones while traveling and the devices are allowed to roam.
+
+North Korea has proven itself as an adversary willing to hack and manipulate systems around the world for its financial or intelligence gain—it was responsible both for the devastating hack of Sony in 2014 and last year's WannaCry ransomware meltdown—and SS7 hacking is likely no exception. The global community has struggled to manage North Korean hackers, though, since they are particularly brazen and shameless. If the US caught North Korea spying on Trump's phone, it would be difficult to select an appropriate deterrent response.
+
+The White House is certainly equipped for secure calling, and hopefully Trump followed protocols such that his late-night gabfests with Kim Jong Un happen on a secure line and can focus on friendship and fun. But if Trump gave the reclusive dictator the access he claims, that recklessness could become a problem.

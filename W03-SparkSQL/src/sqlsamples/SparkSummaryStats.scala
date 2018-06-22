@@ -20,6 +20,8 @@ object SparkSummaryStats {
       .option("inferSchema", "true")
       .load("/home/cloudera/git/S-BEAD/W03-SparkSQL/data/Loan_Prediction_Data.csv")
       
+      
+      
       // Gets summary of all numeric fields
     val summary = loan_Data.describe()
     summary.show()

@@ -13,6 +13,8 @@ object SparkSQLStarterApps
 			.getOrCreate()
 	val sc = spark.sparkContext
 	import spark.implicits._
+	
+	
 	// Define the case classes for using in conjunction with DataFrames
 	case class Trans(accNo: String, tranAmount: Double)
 	case class AcMaster(accNo: String, firstName: String, lastName: String)
